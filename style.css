@@ -4,7 +4,7 @@
 }
 body {
   text-align: center;
-  background: #FFFFFF;
+  background: #888888;
   background-image: url("files/logo.png");
   background-repeat: no-repeat;
   background-position: center top;
@@ -48,7 +48,7 @@ b.f4 {
   text-align: center;
   font: 30px verdana, sans-serif;
   color: #FFFFFF;
-  margin: 0 auto;
+  margin: 100px auto;
 }
 .square{
   text-transform: uppercase;
@@ -57,7 +57,7 @@ b.f4 {
   border: 2px solid #FFFFFF;
   color: #FFFFFF;
   width: 200px;
-  margin: 0 auto;
+  margin: 50px auto;
 }
 .gridSection {
   display: grid;
@@ -102,6 +102,7 @@ b.f4 {
   background-repeat: no-repeat;
   background-position: center top;
   background-size: 75%;
+  margin: 100px auto;
 }
 .gridSectionSecond {
   display: grid;
@@ -110,18 +111,20 @@ b.f4 {
   text-align: justify;
   font: 14px verdana, sans-serif;
   color: #FFFFFF;
-  padding: 50px 50px;
+  padding: 30px 50px;
+  margin: 20px auto;
 }
 .secondTitle{
   grid-column: 1/4;
   grid-row: 1;
-  padding: 30px 50px;
+  padding: 50px 0px;
   font: 28px verdana, sans-serif;
   color: #FFFFFF;
-  margin-left: -50px
 }
 .third {
   background-color: #02419C;
+  padding: 25px 100px;
+  margin: 0px auto;
 }
 .thirdTitle{
   grid-column: 1/4;
@@ -144,7 +147,7 @@ b.f4 {
   background-color: #FFAC00;
   color: #FFFFFF;
   width: 200px;
-  margin: 0 auto;
+  margin: 0px auto;
 }
 .gridFourth {
   display: grid;
@@ -153,18 +156,19 @@ b.f4 {
   font: 14px verdana, sans-serif;
   color: #000000;
   padding: 20px 20px;
+  margin: 100px auto;
 }
 .gridFourthLeft {
   grid-column: 1;
   font: 18px verdana, sans-serif;
   text-align: justify;
-  margin: 0px auto;
+  margin: 25px auto;
 }
 .gridFourthRight {
   grid-column: 2;
   font: 18px verdana, sans-serif;
   text-align: justify;
-  margin: 0px auto;
+  margin: 10px auto;
 }
 .fourthTitle{
   font: 28px verdana, sans-serif;
@@ -178,6 +182,7 @@ b.f4 {
   color: #000000;
   padding: 0px auto;
   align-items: center;
+  margin: 50px auto;
 }
 .grid4LL {
   grid-column: 1;
@@ -185,125 +190,59 @@ b.f4 {
 .grid4LR {
   grid-column: 2;
 }
-input, select, textarea {
+.grid4R {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  text-align: justify;
   font: 14px verdana, sans-serif;
+  color: #000000;
+  padding: 0px auto;
+  align-items: center;
+  margin: 10px auto;
+}
+.grid4RL {
+  grid-column: 1;
+}
+.grid4RR {
+  grid-column: 2;
+}
+.gridForm {
+  padding: 20px 20px;
+  font: 18px verdana, sans-serif;
+  color: #FFFFFF;
+  width: 500px;
+  margin: 10px auto;
+}
+.gridForm2 {
+  padding: 20px 20px;
+  font: 18px verdana, sans-serif;
+  color: #FFFFFF;
+  width: 230px;
+  margin: 10px auto;
+}
+.gridForm3 {
+  padding: 10px 10px;
+  font: 18px verdana, sans-serif;
+  background-color: #005AB4;
+  color: #FFFFFF;
+  text-transform: uppercase;
+  text-align: center;
+  width: 500px;
+  margin: 50px auto;
+}
+input, select, textarea {
+  font: 18px verdana, sans-serif;
   color: #000000;
   border: none;
   padding : 0 10px;
   margin  : 0;
   width   : 240px;
-  background: none
+  background: none;
 }
 .footer {
   background-color: #000000;
   align-items: center;
   font: 12px verdana, sans-serif;
   color: #FFFFFF;
+  margin: -150px auto;
 }
-
-/*
-h2 {
-font: bold 14px verdana, sans-serif;
-}
-header, section, footer, aside, nav, article, figure, figcaption,
-hgroup{
-display: block;
-}
-
-
-.menu {
-background: #BDBDBD;
-padding: 5px 15px;
-margin: 20px;
-text-align: center;
--moz-border-radius: 30px;
--webkit-border-radius: 30px;
-border-radius: 30px;
--moz-box-shadow: #000000 10px 10px 10px;
--webkit-box-shadow: #000000 10px 10px 10px;
-box-shadow: #000000 10px 10px 10px;
-}
-.menu li {
-display: inline-block;
-list-style: none;
-padding: 8px 20px;
-font: bold 14px verdana, sans-serif;
--moz-border-radius: 30px;
--webkit-border-radius: 30px;
-border-radius: 30px;
-border: 2px solid #000000;
-background: #0080FF;
-color: #FFFFFF;
-}
-.menu li.activo{
-	color: #FFCC00;
-}
-.menu li:hover{
--moz-border-radius: 30px;
--webkit-border-radius: 30px;
-border-radius: 30px;
--moz-box-shadow: #000000 10px 10px 10px;
--webkit-box-shadow: #000000 10px 10px 10px;
-box-shadow: #000000 10px 10px 10px;
-border: 2px solid #000000;
-background: #0080FF
-}
-.seccion {
-float: left;
-width: 680px;
-margin: 10px;
-background: #CCCCCC;
-padding: 40px 40px;
-text-align: left;
--moz-border-radius: 30px;
--webkit-border-radius: 30px;
-border-radius: 30px;
-}
-.columna {
-float: left;
-width: 180px;
-margin: 10px 0px;
-padding: 10px;
-background: #CCCCCC;
-text-align: center;
--moz-border-radius: 30px;
--webkit-border-radius: 30px;
-border-radius: 30px;
-}
-.pie {
-clear: both;
-text-align: center;
-padding: 10px;
-border-top: 4px solid #000000;
-}
-#correo{
-	text-align: center;
-}
-article {
-background: #00FFFF;
-border: 4px solid #000000;
-padding: 10px;
-margin-bottom: 10px;
-}
-article footer {
-text-align: right;
-}
-time {
-color: #FF0000;
-}
-figcaption {
-font: italic 14px verdana, sans-serif;
-}
-ul {
-margin-left: 30px;
-}
-
-p {
-text-align: justify;
-}
-a:link { 
-text-decoration:none;
-}
-a:hover{
-color: #FF0000;
-}*/
