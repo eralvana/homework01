@@ -10,18 +10,18 @@ body {
   background-position: center top;
   background-size: 75%
 }
-b.f1 {
+b {
   font: bold 30px verdana, sans-serif;
+}
+b.f1 {
   text-transform: uppercase;
   color: #FFFFFF;
 }
 b.f2 {
-  font: bold 30px verdana, sans-serif;
   text-transform: uppercase;
   color: #59A2DF;
 }
 b.f3 {
-  font: bold 30px verdana, sans-serif;
   text-transform: uppercase;
   color: #02419C;
 }
